@@ -1,0 +1,12 @@
+[16/04/26] Workshop @ UOM, researched top papers using NotebookLM web search. Returned 40+ papers -- not conclusive
+[16/04/26] Workshop @ UOM, Gemini/Claude research of CNN (top 10)
+[18/04/26] Refined search of top 10 research papers using Gemini &  Claude
+[17/04/26] Researched foundation papers using Perplexity
+[18/04/26] Consolidate papers from Gemini, Claude and Perplexity in one list using Gemini
+[18/04/26] Gemini live video feed to set GitHub correct copyright licence
+[19/04/26] use of Google scholar to find per reviewed link to each paper
+[22/04/26] reviewed top 6 relevant papers manually by skimming through content. Uses interactive Gemini to understand some concepts showing on papers
+[22/04/2026] Created notebookLM based on the above selected top 6 papers
+[22/04/2026] NotebookLM --> infographic
+[22/04/2026] NotebookLM --> slide deck (!!)
+[22/04/2026] Colab to draft simualtor
