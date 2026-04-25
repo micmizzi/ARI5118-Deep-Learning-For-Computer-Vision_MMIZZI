@@ -9,4 +9,9 @@
 [22/04/2026] Created notebookLM based on the above selected top 6 papers
 [22/04/2026] NotebookLM --> infographic
 [22/04/2026] NotebookLM --> slide deck (!!)
-[22/04/2026] Colab to draft simualtor
+[22/04/2026] Colab to draft simulator
+[23/04/2026] NotebookLM to create data table addressing each element of focus..to ensure it is well covered by sources attached
+[23/04/2026] NotebookLM generated 10 Q quiz to inspire ideas on how to build quiz for students
+[23/04/2026] use g.ai to ensure that papers sourced are behind the concepts that we need deep-dive into. excellent match! So why is LeCunn paper content not showing anywhere in NotebookLM's output??!
+[24/04/2026] Re-downloaded LeCunn 1998 paper from Ieee and reconnected to NotebookLM. Found out original paper was not contributing as text show not proper decoded by notebookLM. Re-generated infographic
+[25/04/2026] Re-generated notebookLM mindmap, data table, slide deck, 10-Q multiple choice and video summary for inspiration. Note custom prompts used. step improvement in output noted!!
