@@ -16,3 +16,6 @@
 [24/04/2026] Re-downloaded LeCunn 1998 paper from Ieee and reconnected to NotebookLM. Found out original paper was not contributing as text show not proper decoded by notebookLM. Re-generated infographic
 [25/04/2026] Re-generated notebookLM mindmap, data table, slide deck, 10-Q multiple choice and video summary for inspiration. Note custom prompts used. step improvement in output noted!!
 [30/04/2026] drafting of multiple choice questions (no Gen AI used)
+[05/06/2026] finalizing multiple choice questions (hints by Claude on question context)
+[06/05/2026] convert quiz to google forms using MANUS
+
