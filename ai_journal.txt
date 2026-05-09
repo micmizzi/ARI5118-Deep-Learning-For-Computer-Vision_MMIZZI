@@ -19,4 +19,6 @@
 [05/06/2026] finalizing multiple choice questions (hints by Claude on question context)
 [06/05/2026] convert quiz to google forms using MANUS
 [07/05/2026] update of simulator to use MNIST dataset
+[09/05/2026] study notes compilation --> use Gemini, NotebookLM for text building
+
 
