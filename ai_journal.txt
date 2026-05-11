@@ -21,5 +21,7 @@
 [07/05/2026] update of simulator to use MNIST dataset
 [09/05/2026] study notes compilation --> use Gemini, NotebookLM for text building
 [10/05/2026] proof reading of study notes + use Manus to enhance layout and develop cheat sheet- not effective
+[11/05/2026] working on simulator -- use gemini to understand streamlit / changed to Gravio
+[11/05/2026] improved UI layout suing Claude
 
 
