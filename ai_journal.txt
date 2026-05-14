@@ -23,5 +23,6 @@
 [10/05/2026] proof reading of study notes + use Manus to enhance layout and develop cheat sheet- not effective
 [11/05/2026] working on simulator -- use gemini to understand streamlit / changed to Gravio
 [11/05/2026] improved UI layout suing Claude
+[14/05/2026] used gemini to generate some images for the study notes
 
 
