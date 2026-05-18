@@ -1,0 +1,13 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# ARI5118 – CNN Convolution Simulator
+# Google Colab requirements
+#
+# Run in a Colab cell BEFORE launching the app:
+#   !pip install -r requirements.txt -q
+#
+# numpy, pandas, matplotlib and tensorflow are pre-installed in Colab.
+# Only gradio and kagglehub need to be added.
+# ──────────────────────────────────────────────────────────────────────────────
+
+gradio>=4.44.0
+kagglehub>=0.2.9
