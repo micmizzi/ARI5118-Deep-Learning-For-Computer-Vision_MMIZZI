@@ -46,8 +46,8 @@ The app downloads the MNIST dataset automatically via `kagglehub`. You need a fr
 
 1. Sign in at [https://www.kaggle.com](https://www.kaggle.com).
 2. Click your profile picture (top right) → **Settings**.
-3. Scroll to the **API** section → click **Create New Token**.
-4. A file called `kaggle.json` is downloaded to your Windows Downloads folder. Keep it handy.
+3. Scroll to the **API** section → click **Create New Token**. Copy the key!!
+
 
 ---
 
@@ -66,8 +66,8 @@ Create a new notebook: **File → New notebook**.
 In the first Colab cell, run:
 
 ```python
-!git clone https://github.com/<your-username>/ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI.git
-%cd ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI
+!git clone https://github.com/micmizzi/ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI.git
+%cd ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI/Simulator
 ```
 
 ---
@@ -91,8 +91,7 @@ The safest method in Colab uses the built-in **Secrets** manager (no file upload
 1. In Colab, click the **🔑 key icon** in the left sidebar → **Add new secret**.
 2. Add two secrets:
    - Name: `KAGGLE_USERNAME` → Value: your Kaggle username
-   - Name: `KAGGLE_KEY` → Value: the `key` value from your `kaggle.json` file  
-     (open `kaggle.json` in Notepad — it looks like `{"username":"xxx","key":"yyy"}`)
+   - Name: `KAGGLE_KEY` → Value: paste the `key` value from your Kaggle notification window 
 3. Enable the toggle **"Notebook access"** for both secrets.
 4. In a Colab cell, run this **once** before launching the app:
 
@@ -103,26 +102,6 @@ from google.colab import userdata
 os.environ["KAGGLE_USERNAME"] = userdata.get("KAGGLE_USERNAME")
 os.environ["KAGGLE_KEY"]      = userdata.get("KAGGLE_KEY")
 ```
-
-#### Method B — Upload kaggle.json directly
-
-```python
-from google.colab import files
-import os, json
-
-uploaded = files.upload()          # A file picker will appear — select kaggle.json
-kaggle_data = json.loads(list(uploaded.values())[0])
-
-os.makedirs(os.path.expanduser("~/.config/kaggle"), exist_ok=True)
-with open(os.path.expanduser("~/.config/kaggle/kaggle.json"), "w") as f:
-    json.dump(kaggle_data, f)
-os.chmod(os.path.expanduser("~/.config/kaggle/kaggle.json"), 0o600)
-print("kaggle.json saved successfully.")
-```
-
-> The dataset is cached in the Colab session after the first download. If the runtime is restarted you will need to re-run this cell, but the download is fast.
-
----
 
 ### Step 6 — Launch the app
 
@@ -139,7 +118,6 @@ Running on public URL: https://xxxxxxxx.gradio.live
 
 **Click the public URL** (`gradio.live` link) to open the interactive app in a new browser tab. The local URL does not work in Colab — always use the public one.
 
-> The public link is active for 72 hours. You can share it with a supervisor or peer — no account needed to view it.
 
 ---
 
@@ -149,8 +127,8 @@ Run these cells in order in a single Colab notebook:
 
 ```python
 # Cell 1 — Clone repo
-!git clone https://github.com/<your-username>/ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI.git
-%cd ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI
+!git clone https://github.com/micmizzi/ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI.git
+%cd ARI5118-Deep-Learning-For-Computer-Vision_MMIZZI/Simulator
 
 # Cell 2 — Install dependencies
 !pip install -r requirements.txt -q
