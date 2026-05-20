@@ -84,9 +84,6 @@ This installs only `gradio` and `kagglehub`. All other packages (TensorFlow, Num
 
 ### Step 5 — Set up Kaggle credentials
 
-The safest method in Colab uses the built-in **Secrets** manager (no file uploads needed).
-
-#### Method A — Colab Secrets (recommended)
 
 1. In Colab, click the **🔑 key icon** in the left sidebar → **Add new secret**.
 2. Add two secrets:
