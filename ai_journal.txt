@@ -24,6 +24,10 @@
 [11/05/2026] working on simulator -- use gemini to understand streamlit / changed to Gravio
 [11/05/2026] improved UI layout suing Claude
 [14/05/2026] used gemini to generate some images for the study notes
-[15/05/2026] cross-evaluation of study notes via Gemini
+[14/05/2026] cross-evaluation of study notes via Gemini and claude
+[15/05/2026] developed walkthrough jupyter notebook for worked example using Google colab
+[18/05/2026] drafting ppt using presentations.AI
+[18/05/2026] generated readme.md & requirements.txt to run the simulator directly from GitHub. adapted to Colab Environment
+[xx/05/2026] --- to record video of simulator
 
 
